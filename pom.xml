@@ -170,10 +170,16 @@
                 <artifactId>fescar-dubbo</artifactId>
                 <version>${fescar.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
-                <version>4.1.30.Final</version>
+                <version>4.1.6.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-common</artifactId>
+                <version>4.1.6.Final</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
