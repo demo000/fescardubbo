@@ -16,6 +16,8 @@
 
 package com.dem.service;
 
+import com.dem.entity.Order;
+
 /**
  * The interface Order service.
  */
@@ -28,5 +30,5 @@ public interface IOrderService {
      * @param orderCount    订购数量
      * @return 生成的订单 order
      */
-//    Order create(String userId, String commodityCode, int orderCount);
+    Order create(String userId, String commodityCode, int orderCount);
 }

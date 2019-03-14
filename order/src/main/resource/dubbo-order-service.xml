@@ -21,7 +21,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
 
-    <dubbo:service interface="com.dem.service.IAccountService" ref="accountServiceImpl" timeout="10000"/>
+    <dubbo:service interface="com.dem.service.IOrderService" ref="orderServiceImpl"  timeout="10000"/>
 
 
 

@@ -44,7 +44,7 @@
         <module>account</module>
         <module>storage</module>
         <module>order</module>
-        <module>businiss</module>
+        <module>business</module>
         <module>service</module>
     </modules>
     <dependencyManagement>
@@ -173,7 +173,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
-                <version>${netty4.version}</version>
+                <version>4.1.30.Final</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
